@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/all.min.css">
-	<link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/fontawesome.min.css" type="text/css">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 
-	<link rel="stylesheet" href="css/general_mq.css">
+	<link rel="stylesheet" href="css/general_mq.css" type="text/css">
 
-	<title alt="Reservia - Touvez votre hébergement pour des vacances de rêve">Reservia - Trouvez votre hébergement pour
+	<title>Reservia - Trouvez votre hébergement pour
 		des vacances de rêve </title>
 </head>
 
@@ -36,12 +36,12 @@
 		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 		<p>En plein centre ville ou en pleine nature</p>
 
-		<form action="" id="barreRecherche">
+		<form action="traitementFormulaire" id="barreRecherche">
 			<div id="mapMarkerWrapper">
 				<i class="fas fa-map-marker-alt"></i>
 			</div>
-			<input type="text" name="" id="" value="Marseille, France">
-			<input type="button" value="Rechercher">
+			<input type="text" name="ville" id="ville" value="Marseille, France" required/>
+			<input type="button" value="Rechercher"/>
 			<button id="loupe" >
 				<i class="fas fa-search"></i>
 			</button>
