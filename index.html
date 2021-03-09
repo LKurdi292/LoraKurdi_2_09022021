@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" lang="en">
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -12,19 +12,21 @@
 
 	<link rel="stylesheet" href="css/general_mq.css" type="text/css">
 
-	<title>Reservia - Trouvez votre hébergement pour
-		des vacances de rêve </title>
+	<title>Reservia - Trouvez votre hébergement pour des vacances de rêve </title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="./images/Reservia.ico" type="image/x-icon">
 </head>
 
 <body>
 	<header>
-		<img src="./images/Reservia.svg" alt="Logo de Reservia" />
+		<img title="Reservia" src="./images/Reservia.svg" alt="Logo de Reservia" />
 
 		<nav>
 			<ul>
-				<li><a href="#hebergements">Hébergements</a></li>
-				<li><a href="#activites">Activités</a></li>
-				<li><a href="#"></a>S'inscrire</li>
+				<li><a href="#hebergements" title="Hébergements">Hébergements</a></li>
+				<li><a href="#activites" title="Activités">Activités</a></li>
+				<li><a href="#" title="S'inscire">S'inscrire</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -40,9 +42,9 @@
 			<div id="mapMarkerWrapper">
 				<i class="fas fa-map-marker-alt"></i>
 			</div>
-			<input type="text" name="ville" id="ville" value="Marseille, France" required/>
-			<input type="button" value="Rechercher"/>
-			<button id="loupe" >
+			<input type="text" name="ville" id="ville" value="Marseille, France" required />
+			<input title="Rechercher" type="button" value="Rechercher" />
+			<button id="loupe">
 				<i class="fas fa-search"></i>
 			</button>
 		</form>
@@ -54,25 +56,25 @@
 					<div class="iconWrapper">
 						<i class="fas fa-money-bill-wave"></i>
 					</div>
-					<a href="#">Économique</a>
+					<a href="#" title="Économique">Économique</a>
 				</div>
 				<div class="filtre">
 					<div class="iconWrapper">
 						<i class="fas fa-child"></i>
 					</div>
-					<a href="#">Familial</a>
+					<a href="#" title="Familial">Familial</a>
 				</div>
 				<div class="filtre">
 					<div class="iconWrapper">
 						<i class="fas fa-heart"></i>
 					</div>
-					<a href="#">Romantique</a>
+					<a href="#" title="Romantique">Romantique</a>
 				</div>
 				<div class="filtre">
 					<div class="iconWrapper">
-						<i class="fas fa-dog" ></i>
+						<i class="fas fa-dog"></i>
 					</div>
-					<a href="#">Animaux autorisés</a>
+					<a href="#" title="Animaux autorisés">Animaux autorisés</a>
 				</div>
 			</div>
 		</div>
@@ -94,7 +96,8 @@
 			<h3>Hébergements à Marseille</h3>
 
 			<div id="containerCardsHebergements">
-				<div class="cardsHeb" id="cannebiere">
+
+				<div class="cardsHeb" id="cannebiere" title="Auberge La Cannebière">
 					<a href="#"></a>
 					<div class="picHeb" id="picCannebiere"></div>
 					<div class="texteSousImage">
@@ -109,7 +112,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsHeb">
+				<div class="cardsHeb" title="Hôtel du Port">
 					<a href="#"></a>
 					<div class="picHeb" id="picHotelDuPort"></div>
 					<div class="texteSousImage">
@@ -124,7 +127,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsHeb" id="lesMouettes">
+				<div class="cardsHeb" id="lesMouettes" title="Hôtel Les Mouettes">
 					<a href="#"></a>
 					<div class="picHeb" id="picLesMouettes"></div>
 					<div class="texteSousImage">
@@ -139,7 +142,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsHeb" id="laMer">
+				<div class="cardsHeb" id="laMer" title="Hôtel de la Mer">
 					<a href="#"></a>
 					<div class="picHeb" id="picLaMer"></div>
 					<div class="texteSousImage">
@@ -154,7 +157,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsHeb">
+				<div class="cardsHeb" title="Auberge Le Panier">
 					<a href="#"></a>
 					<div class="picHeb" id="picLePanier"></div>
 					<div class="texteSousImage">
@@ -169,7 +172,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsHeb" id="chezAmina">
+				<div class="cardsHeb" id="chezAmina" title="Hôtel chez Amina">
 					<a href="#"></a>
 					<div class="picHeb" id="picChezAmina"></div>
 					<div class="texteSousImage">
@@ -186,7 +189,7 @@
 				</div>
 			</div>
 
-			<p>Afficher plus</p>
+			<p><a title="Afficher plus" href="#">Afficher plus</a></p>
 		</div>
 
 		<div id="container-les-plus-populaires">
@@ -196,7 +199,7 @@
 			</div>
 
 			<div id="containerCardsPopulaires">
-				<div class="cardsPop">
+				<div class="cardsPop" title="Hôtel Le Soleil du Matin">
 					<a href="#"></a>
 					<div class="picPop" id="picSoleilMatin"></div>
 					<div class="texteDroiteImage">
@@ -213,7 +216,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsPop" id="coeurEau">
+				<div class="cardsPop" id="coeurEau" title="Au coeur de l'eau - Chambre d'hôtes">
 					<a href="#"></a>
 					<div class="picPop" id="picCoeurDeLeau"></div>
 					<div class="texteDroiteImage">
@@ -230,7 +233,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cardsPop" id="bleuBlanc">
+				<div class="cardsPop" id="bleuBlanc" title="Hôtel Tout Bleu et Blanc">
 					<a href="#"></a>
 					<div class="picPop" id="picBleuBlanc"></div>
 					<div class="texteDroiteImage">
@@ -259,7 +262,7 @@
 		<h3>Activités à Marseille</h3>
 
 		<div id="containerCardsActivites">
-			<div class="cardsActivites">
+			<div class="cardsActivites" title="Vieux Port">
 				<a href="#"></a>
 				<div class="picActivites" id="picPort"></div>
 				<div class="TitreActivite">
@@ -268,14 +271,14 @@
 			</div>
 
 			<div id="containerCards2-3">
-				<div class="cardsActivites">
+				<div class="cardsActivites" title="Fort de Pomégues">
 					<a href="#"></a>
 					<div class="picActivites" id="picFort"></div>
 					<div class="TitreActivite">
 						<p>Fort de Pomégues</p>
 					</div>
 				</div>
-				<div class="cardsActivites">
+				<div class="cardsActivites" title="Îles du Frioul">
 					<a href="#"></a>
 					<div class="picActivites" id="picFrioul"></div>
 					<div class="TitreActivite">
@@ -284,7 +287,7 @@
 				</div>
 			</div>
 
-			<div class="cardsActivites">
+			<div class="cardsActivites" title="Parc National des Calanques">
 				<a href="#"></a>
 				<div class="picActivites" id="picCalanques"></div>
 				<div class="TitreActivite">
@@ -293,14 +296,14 @@
 			</div>
 
 			<div id="containerCards5-6">
-				<div class="cardsActivites">
+				<div class="cardsActivites" title="Notre-Dame-de-la-Garde">
 					<a href="#"></a>
 					<div class="picActivites" id="picNDGarde"></div>
 					<div class="TitreActivite">
 						<p>Notre-Dame-de-la-Garde</p>
 					</div>
 				</div>
-				<div class="cardsActivites">
+				<div class="cardsActivites" title="Parc Longchamp">
 					<a href="#"></a>
 					<div class="picActivites" id="picLongchamp"></div>
 					<div class="TitreActivite">
@@ -333,6 +336,22 @@
 				<li>Nous contacter</li>
 			</ul>
 		</nav>
+
+		<!-- Logos W3C -->
+		<div class="w3c_logo_container">
+			<p class="w3c_valid_html" title="HTML Valide !">
+				<a href="https://validator.w3.org/" target="_blank">
+					<img src="./images/validation_html5.png" alt="HTML Valide !"/>
+				</a>
+			</p>
+
+			<p class="w3c_valid_css" title="CSS Valide !">
+				<a href="http://jigsaw.w3.org/css-validator" target="_blank">
+					<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valide !" />
+				</a>
+			</p>
+		</div>
+
 	</footer>
 </body>
 
