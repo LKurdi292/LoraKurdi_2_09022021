@@ -630,6 +630,9 @@
 	#picFort {
 		background-position: 50% 42%;
 	}
+	#picFrioul {
+		background-position: 60% 18%;
+	}
 	#picCalanques {
 		background-position: 45% 20%;
 	}
@@ -643,7 +646,6 @@
 		flex-direction: column;
 		/* border: 1px dashed red; */
 	}
-
 	footer nav ul {
 		/* width: 100%; */
 		margin: 0 0 10% 0;
@@ -652,7 +654,6 @@
 	footer nav ul:last-child {
 		margin: 0;
 	}
-
 	footer nav ul li {
 		padding-bottom: 5%;
 	}

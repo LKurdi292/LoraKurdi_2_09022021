@@ -567,7 +567,7 @@ div.cardsActivites:hover {
 		/* Taille spécifique des cards 2,3,5,6 */
 div#containerCards2-3 .cardsActivites:nth-child(1) {
 	width: 100%;
-	height: 50%;
+	height: 55%;
 }
 
 div#containerCards2-3 .cardsActivites:nth-child(2) {
@@ -577,12 +577,12 @@ div#containerCards2-3 .cardsActivites:nth-child(2) {
 
 div#containerCards5-6 .cardsActivites:nth-child(1) {
 	width: 100%;
-	height: 35%;
+	height: 45%;
 }
 
 div#containerCards5-6 .cardsActivites:nth-child(2) {
 	width: 100%;
-	height: 45%;
+	height: 42%;
 }
 
 
@@ -611,14 +611,14 @@ div#containerCards2-3 div.picActivites, div#containerCards5-6 div.picActivites {
 	overflow: hidden;
 	background: url(../images/activites/small_fort-de-Pomegues.jpg) no-repeat;
 	background-size: cover;
-	background-position: 50% 40%;
+	background-position: 50% 43%;
 }
 
 #picFrioul {
 	overflow: hidden;
 	background: url(../images/activites/small_iles-du-frioul.jpg) no-repeat;
 	background-size: cover;
-	background-position: 60% 10%;
+	background-position: 60% 28%;
 }
 
 #picCalanques {
@@ -632,14 +632,14 @@ div#containerCards2-3 div.picActivites, div#containerCards5-6 div.picActivites {
 	overflow: hidden;
 	background: url(../images/activites/small_ND-de-LaGarde.jpg) no-repeat;
 	background-size: cover;
-	background-position: 70% 15%;
+	background-position: 50% 5%;
 }
 
 #picLongchamp {
 	overflow: hidden;
 	background: url(../images/activites/small_Parc-Longchamp.jpg) no-repeat;
 	background-size: cover;
-	background-position: 60% 25%;
+	background-position: 80% 30%;
 }
 
 	/* Le titre de l'activité */
@@ -653,7 +653,7 @@ div.TitreActivite {
 
 #containerCards2-3 div.TitreActivite, #containerCards5-6 div.TitreActivite {
 	height: 20%;
-	margin: 4% 0 0 6%;
+	margin: 6% 0 0 6%;
 }
 
 

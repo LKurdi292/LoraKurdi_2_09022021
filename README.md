@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Reservia}</h1>
+<h1 align="center">Reservia</h1>
 
 <div align="center">
   OpenClassrooms Project for The <a href="https://openclassrooms.com/en/paths/141-web-developer#path-tabs" target="_blank">Web Developer Training Programm</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://reservia-ba703.web.app/">
+    <a href="https://reservia-ba703.web.app/" target="_blank">
       Solution
     </a>
   </h3>
